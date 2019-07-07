@@ -1,175 +1,108 @@
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    body {
-        background-image: url("./pictures/background.jpg");
-        font-family: 'Indie Flower', cursive;
-    }
-    
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*index.html start*/
+
+@media screen and (min-width:768px) {
     .flex-container {
         display: flex;
     }
-    
-    header {
-        width: 100%;
-        height: 80px;
-        background-color: #ffffff;
-        border: 1px solid #cccccc;
-        /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;*/
-    }
-    
-    nav {
-        width: 960px;
-        margin: 0 auto;
-    }
-    
-    #name {
-        width: 25%;
-        height: 55px;
-        background-color: #4aaaa5;
-        color: white;
-        font-weight: bold;
-        text-align: center;
-        padding-top: 25px;
-        font-size: 25px;
-    }
-    
-    #empty-space {
-        width: 50%;
-    }
-    
-    #links {
-        width: 25%;
-        text-align: right;
-        padding-top: 30px;
-        color: #777777;
-    }
-    
-    #link {
-        width: 33.3%;
-        padding: 20px 10px;
-    }
-    
     .wrapper {
-        width: 960px;
-        height: 100%;
-        /* font-family: 'Georgia', Times, Times New Roman, serif; */
-        margin: 0 auto 20px;
-    }
-    
-    #index-full {
-        margin: 20px 0 10px;
-        background-color: #ffffff;
-        padding: 10px;
-        border: 1px solid #dddddd;
-    }
-    
-    .about-me {
-        width: 20%;
-        text-align: left;
-        font-size: 25px;
-        margin: 10px;
-        padding: 10px 0;
-        color: #4aaaa5;
-    }
-    
-    #image-section {
-        padding: 10px 10px;
-    }
-    
-    #first-paragraph {
-        padding: 0 10px;
-        color: #777777;
-        line-height: 30px;
-    }
-    
-    #second-paragraph {
-        padding: 10px 10px;
-        color: #777777;
-        line-height: 30px;
-    }
-    
-    .footer-section {
+        background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/black-abstract-tech-triangles-motion-background-video-animation-ultra-hd-4k-3840x2160_rzlankbf__F0000.png");
         width: 100%;
-        height: 15%;
+        padding: 20px 0;
+    }
+    header {
+        width: 100%px;
+    }
+    .my-name {
+        width: 33.3%;
+        height: 70px;
         background-color: #4aaaa5;
-    }
-    
-    footer {
-        width: 100%;
-        height: 50px;
-        background-color: #666666;
-        margin-top: 40px;
-    }
-    
-    #contact {
-        background-color: #ffffff;
-        width: 100%;
-        padding: 20px;
-        margin: 20px 0;
-        border: 1px solid #dddddd;
-        margin-bottom: 60px;
-    }
-    
-    #contact-title {
-        width: 20%;
-        text-align: left;
-        font-size: 25px;
-        margin: 10px;
-        padding: 10px 0;
-        color: #4aaaa5;
-    }
-    
-    form {
-        margin: 10px 0;
-    }
-    
-    button {
-        width: 90px;
-        height: 40px;
-        background-color: #4aaaa5;
+        text-align: center;
         color: white;
     }
-    
-    input {
-        width: 100%;
-        margin: 5px 0;
+    .empty-space {
+        width: 33.3%;
     }
-    
-    textarea {
-        margin: 5px 0;
-        width: 100%;
+    .links {
+        width: 33.3%;
+        height: 40px;
+        background-color: white;
+        text-align: center;
     }
-    
+    #about {
+        margin: 10px 20px;
+    }
     #portfolio {
-        background-color: #ffffff;
-        width: 100%;
+        margin: 10px 20px;
+    }
+    #contact {
+        margin: 10px 20px;
+    }
+    .content {
+        width: 1000px;
+        background-color: white;
         padding: 20px;
+    }
+    footer {
+        height: 60px;
+        width: 100%px;
+        background-color: #666666;
+        text-align: center;
+    }
+    .footer-top {
+        width: 100%;
+        height: 10%;
+        background-color: #4aaaa5;
+    }
+    img {
         margin: 20px 0;
-        border: 1px solid #dddddd;
     }
-    
-    #portfolio-title {
-        width: 20%;
-        text-align: left;
-        font-size: 25px;
-        margin: 10px;
-        padding: 10px 0;
+    #about-me {
+        margin: 10px 0;
         color: #4aaaa5;
+        font-weight: bolder;
+        font-size: 20px;
     }
-    
-    .picture {
-        width: 250px;
+    .text-1 {
+        margin: 20px 0 20px 20px;
+    }
+    .row1-1 {
+        width: 300px;
         height: 200px;
-        margin: 10px 20px 10px 0;
-        background-image: url("https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-        background-size: 250px 200px;
+        background-image: url("https://live.staticflickr.com/7017/6818204891_681d824262.jpg");
+        margin: 20px 20px 20px 0;
     }
-    
+    .row1-2 {
+        width: 300px;
+        height: 200px;
+        background-image: url("https://live.staticflickr.com/7017/6818204891_681d824262.jpg");
+        margin: 20px 20px 20px 0;
+    }
+    .row2-1 {
+        width: 300px;
+        height: 200px;
+        background-image: url("https://live.staticflickr.com/7017/6818204891_681d824262.jpg");
+        margin: 20px 20px 20px 0;
+    }
+    .row2-2 {
+        width: 300px;
+        height: 200px;
+        background-image: url("https://live.staticflickr.com/7017/6818204891_681d824262.jpg");
+        margin: 20px 20px 20px 0;
+    }
+    .row3-1 {
+        width: 300px;
+        height: 200px;
+        background-image: url("https://live.staticflickr.com/7017/6818204891_681d824262.jpg");
+        margin: 20px 20px 20px 0;
+    }
     .game-name {
-        width: 250px;
+        width: 300px;
         height: 30px;
         background-color: #4aaaa5;
         color: #ffffff;
@@ -177,28 +110,278 @@
         text-align: center;
         padding: 10px 0;
     }
-    
-    #row1-1 {
-        background-color: black;
+    form {
+        margin: 10px 0;
     }
-    
-    #row1-2 {
-        background-color: yellow;
+    button {
+        width: 90px;
+        height: 40px;
+        background-color: #4aaaa5;
+        color: white;
     }
-    
-    #row2-1 {
-        background-color: silver;
+    input {
+        width: 100%;
+        margin: 5px 0;
     }
-    
-    #row2-2 {
-        background-color: blue;
+    textarea {
+        margin: 5px 0;
+        width: 100%;
     }
-    
-    #row3-1 {
-        background-color: red;
+}
+
+@media screen and (max-width:768px) {
+    .flex-container {
+        display: flex;
+        flex-direction: row;
     }
-    
-    #row3-2 {
-        width: 250px;
+    .wrapper {
+        background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/black-abstract-tech-triangles-motion-background-video-animation-ultra-hd-4k-3840x2160_rzlankbf__F0000.png");
+        width: 728px;
+        padding: 20px;
+    }
+    header {
+        width: 768px;
+    }
+    .my-name {
+        width: 40%;
+        height: 70px;
+        background-color: #4aaaa5;
+        text-align: center;
+        color: white;
+    }
+    .empty-space {
+        width: 20%;
+    }
+    .links {
+        width: 40%;
+        height: 40px;
+        background-color: white;
+        text-align: center;
+    }
+    #about {
+        margin: 10px 20px;
+    }
+    #portfolio {
+        margin: 10px 20px;
+    }
+    #contact {
+        margin: 10px 20px;
+    }
+    .content {
+        background-color: white;
+        padding: 20px;
+    }
+    footer {
+        height: 60px;
+        width: 768px;
+        background-color: #666666;
+        text-align: center;
+    }
+    .footer-top {
+        width: 100%;
+        height: 10%;
+        background-color: #4aaaa5;
+    }
+    img {
+        margin: 20px 0;
+    }
+    #about-me {
+        margin: 10px 0;
+        color: #4aaaa5;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .text-1 {
+        margin: 20px 0 20px 20px;
+    }
+    .row {
+        width: 100%;
+    }
+    .row1-1 {
+        width: 300px;
+        height: 200px;
+        background-image: url("https://live.staticflickr.com/7017/6818204891_681d824262.jpg");
+        margin: 20px 20px 20px 0;
+    }
+    .row1-2 {
+        width: 300px;
+        height: 200px;
+        background-image: url("https://live.staticflickr.com/7017/6818204891_681d824262.jpg");
+        margin: 20px 20px 20px 0;
+    }
+    .row2-1 {
+        width: 300px;
+        height: 200px;
+        background-image: url("https://live.staticflickr.com/7017/6818204891_681d824262.jpg");
+        margin: 20px 20px 20px 0;
+    }
+    .row2-2 {
+        width: 300px;
+        height: 200px;
+        background-image: url("https://live.staticflickr.com/7017/6818204891_681d824262.jpg");
+        margin: 20px 20px 20px 0;
+    }
+    .row3-1 {
+        width: 300px;
+        height: 200px;
+        background-image: url("https://live.staticflickr.com/7017/6818204891_681d824262.jpg");
+        margin: 20px 20px 20px 0;
+    }
+    .game-name {
+        width: 300px;
         height: 30px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        margin-top: 140px;
+        text-align: center;
+        padding: 10px 0;
     }
+    form {
+        margin: 10px 0;
+    }
+    button {
+        width: 90px;
+        height: 40px;
+        background-color: #4aaaa5;
+        color: white;
+    }
+    input {
+        width: 100%;
+        margin: 5px 0;
+    }
+    textarea {
+        margin: 5px 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper {
+        background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/black-abstract-tech-triangles-motion-background-video-animation-ultra-hd-4k-3840x2160_rzlankbf__F0000.png");
+        width: 500px;
+        padding: 20px;
+    }
+    header {
+        width: 540px;
+    }
+    .my-name {
+        width: 100%;
+        height: 70px;
+        background-color: #4aaaa5;
+        text-align: center;
+        color: white;
+    }
+    .links {
+        width: 540px;
+        height: 40px;
+        background-color: white;
+        text-align: center;
+    }
+    #about {
+        margin: 10px 20px;
+    }
+    #portfolio {
+        margin: 10px 20px;
+    }
+    #contact {
+        margin: 10px 20px;
+    }
+    .content {
+        background-color: white;
+        padding: 20px;
+    }
+    footer {
+        height: 60px;
+        width: 540px;
+        background-color: #666666;
+        text-align: center;
+    }
+    .footer-top {
+        width: 100%;
+        height: 10%;
+        background-color: #4aaaa5;
+    }
+    img {
+        height: 400px;
+        margin: 20px 0;
+    }
+    #about-me {
+        margin: 10px 0;
+        color: #4aaaa5;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .text {
+        margin: 10px 0;
+    }
+    .row {
+        width: 100%;
+        align-content: center;
+    }
+    .row1-1 {
+        width: 300px;
+        height: 200px;
+        background-image: url("https://live.staticflickr.com/7017/6818204891_681d824262.jpg");
+        margin-bottom: 30px;
+    }
+    .row1-2 {
+        width: 300px;
+        height: 200px;
+        background-image: url("https://live.staticflickr.com/7017/6818204891_681d824262.jpg");
+        margin-bottom: 30px;
+    }
+    .row2-1 {
+        width: 300px;
+        height: 200px;
+        background-image: url("https://live.staticflickr.com/7017/6818204891_681d824262.jpg");
+        margin-bottom: 30px;
+    }
+    .row2-2 {
+        width: 300px;
+        height: 200px;
+        background-image: url("https://live.staticflickr.com/7017/6818204891_681d824262.jpg");
+        margin-bottom: 30px;
+    }
+    .row3-1 {
+        width: 300px;
+        height: 200px;
+        background-image: url("https://live.staticflickr.com/7017/6818204891_681d824262.jpg");
+        margin-bottom: 30px;
+    }
+    .game-name {
+        width: 300px;
+        height: 30px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        margin-top: 140px;
+        text-align: center;
+        padding: 10px 0;
+    }
+    form {
+        margin: 10px 0;
+    }
+    button {
+        width: 90px;
+        height: 40px;
+        background-color: #4aaaa5;
+        color: white;
+    }
+    input {
+        width: 100%;
+        margin: 5px 0;
+    }
+    textarea {
+        margin: 5px 0;
+        width: 100%;
+    }
+}
+
+
+/*index.html end*/
+
+
+/*portfolio.html start*/
